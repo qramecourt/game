@@ -14,11 +14,46 @@ let CharacterStats = [
 ]
 
 
+document.getElementById("fighterChucky").onclick= showImageChucky;
 
-// let selector = document.getElementById('fighterList');
-// var value = select
-// console.log(selector.value)
+function showImageChucky(){
+    document.getElementById("chuckyImg").style.display = "block"
+}
 
+
+
+
+document.getElementById("fighterBrahms").onclick = showImageBrahms;
+
+function showImageBrahms(){
+    document.getElementById("brahmsImg").style.display = "block"
+}
+
+
+
+
+document.getElementById("fighterAnnabelle").onclick = showImageAnnabelle;
+
+function showImageAnnabelle(){
+    document.getElementById("annabelleImg").style.display = "block"
+}
+
+
+
+document.getElementById("fighterAnnabelle").onclick = showImageClown;
+
+function showImageClown(){
+    document.getElementById("clownImg").style.display = "block"
+}
+
+
+
+
+document.getElementById("fighterBaba").onclick = showImageBaba;
+
+function showImageBaba(){
+    document.getElementById("babaImg").style.display = "block"
+}
 // fonctions pour afficher les images
 
 

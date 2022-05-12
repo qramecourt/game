@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1 class="text-3xl text-red-600">Possessed doll showdown!!!!</h1>
+    </center>
+   <div class="space-x-4 space-y-8">
+        <div>
+        <center>
+            <label for="choose">Choose a fighter or die!
+            </label>
+            <select name="fighterlist" id="fighterList">
+                <option value="chucky" id="fighterChucky" onclick="showImageChucky()" class="hidden">Chucky </option>
+                <option value="brahms" id="fighterBrahms" onclick="selectBrahms()">Brahms</option>
+                <option value="annabelle" id="fighterAnnabelle" onclick="">Annabelle</option>
+                <option value="poltergeist" id="fighterClown">poltergeist clown</option>
+                <option value="mr babadook" id="fighterBaba">Mister Babadook</option>
+            </select>
+        </center>
+        
+    </div>
+    <div>
+        <img src="/View/misc/chucky.jpg" alt="poupée rousse aux yeux bleus avec un couteau" id="chuckyImg"   onclick="showImageChucky()">
+        <img src="/View/misc/annabelle.jpg" alt="vieille poupée flippante aux yeux bleus avec des couettes" hidden>
+        <img src="/View/misc/brahms.jpg" alt="homme blanc comme linge avec haut de forme noir" hidden>
+        <img src="/View/misc/clown_poltergeist.jpg" alt="marionnette de clown surfond noir  "hidden>
+    </div>
+    <div>
+        <center>
+            <button id="slaughterButton" class="bg-red-500 w-52 h-16 text-white rounded-sm ">MASSACREZ!!!!
+            </button>
+        </center>
+    </div>
+</div>
+</body>
+    
+</html>

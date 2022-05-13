@@ -18,6 +18,10 @@ document.getElementById("fighterChucky").onclick= showImageChucky;
 
 function showImageChucky(){
     document.getElementById("chuckyImg").style.display = "block"
+    document.getElementById("brahmsImg").style.display = "none"
+    document.getElementById("annabelleImg").style.display = "none"
+    document.getElementById("clownImg").style.display = "none"
+    document.getElementById("babaImg").style.display = "none"
 }
 
 
@@ -27,6 +31,10 @@ document.getElementById("fighterBrahms").onclick = showImageBrahms;
 
 function showImageBrahms(){
     document.getElementById("brahmsImg").style.display = "block"
+    document.getElementById("annabelleImg").style.display = "none"
+    document.getElementById("chuckyImg").style.display = "none"
+    document.getElementById("clownImg").style.display = "none"
+    document.getElementById("babaImg").style.display = "none"
 }
 
 
@@ -36,6 +44,10 @@ document.getElementById("fighterAnnabelle").onclick = showImageAnnabelle;
 
 function showImageAnnabelle(){
     document.getElementById("annabelleImg").style.display = "block"
+    document.getElementById("brahmsImg").style.display = "none"
+    document.getElementById("chuckyImg").style.display = "none"
+    document.getElementById("clownImg").style.display = "none"
+    document.getElementById("babaImg").style.display = "none"
 }
 
 
@@ -44,6 +56,10 @@ document.getElementById("fighterAnnabelle").onclick = showImageClown;
 
 function showImageClown(){
     document.getElementById("clownImg").style.display = "block"
+    document.getElementById("brahmsImg").style.display = "none"
+    document.getElementById("annabelleImg").style.display = "none"
+    document.getElementById("chuckyImg").style.display = "none"
+    document.getElementById("babaImg").style.display = "none"
 }
 
 
@@ -53,6 +69,10 @@ document.getElementById("fighterBaba").onclick = showImageBaba;
 
 function showImageBaba(){
     document.getElementById("babaImg").style.display = "block"
+    document.getElementById("brahmsImg").style.display = "none"
+    document.getElementById("annabelleImg").style.display = "none"
+    document.getElementById("chuckyImg").style.display = "none"
+    document.getElementById("clownImg").style.display = "none"
 }
 // fonctions pour afficher les images
 

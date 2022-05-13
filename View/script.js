@@ -7,13 +7,48 @@ class Character  {
         this.img = img,
         this.id = id
     }//ATK def HP integer, id name img string
-    
+    getName() {
+        return this.name;
+    }
+    getATK(){
+        return this.ATK;
+    }
+    setATK(ATK){
+        this.ATK =ATK;
+    }
+    getDef(){
+        return this.def;
+    }
+    setDef(def){
+        this.def = def
+    }
+    getHP() {
+        return this.HP;
+    }
+    setHP(HP){
+        this.HP = HP;
+    }
 }
 let CharacterStats = [
     new Character("chucky",500, 150, 750, "View/misc/chucky.jpg", "fighterChucky"),
 ]
 
-
+class Arme {
+    constructor(name, boost_ATK, boost_def) {
+        this.name = name,
+        this.boost_ATK = boost_ATK,
+        this.boost_def = boost_def
+    }
+    getName(){
+        return this.name
+    }
+    getBoostATK() {
+        return this.boost_ATK
+    }
+    getBosstDef(){
+        return this.boost_def
+    }
+}
 document.getElementById("fighterChucky").onclick= showImageChucky;
 
 function showImageChucky(){
@@ -89,7 +124,5 @@ class Weapon {
 //IA choix perso
 
 
-function battle(){
 
-}
 

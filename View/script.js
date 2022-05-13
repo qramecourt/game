@@ -72,3 +72,4 @@ class Weapon {
 function battle(){
 
 }
+
